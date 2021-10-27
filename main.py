@@ -1,0 +1,19 @@
+# hello world   
+def main():
+    print("hello world")
+
+def get_name():
+    name = input("What is your name? ")
+    return name
+
+def fizzbuzz(n):
+    if n % 3 == 0 and n % 5 == 0:
+        return "FizzBuzz"
+    elif n % 3 == 0:
+        return "Fizz"
+    elif n % 5 == 0:
+        return "Buzz"
+    else:
+        return n
+        
+
